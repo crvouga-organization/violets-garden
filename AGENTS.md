@@ -6,4 +6,4 @@ https://raw.githubusercontent.com/crvouga-organization/personal/main/llms.txt
 Hosting: this repo is deployed to the managed fleet in `crvouga/workspace` as service
 `violets-garden`. Pushes to `main` run `.github/workflows/publish.yml`, which builds the
 `Dockerfile` (static Vite build served by nginx on port 80) and publishes
-`ghcr.io/crvouga-organization/chrisvouga-violets-garden`. Never deploy by hand.
+`ghcr.io/crvouga/chrisvouga-violets-garden`. Never deploy by hand.

@@ -65,7 +65,7 @@ docker run --rm -p 8080:80 violets-garden   # http://localhost:8080
 
 Hosted on the shared fleet from [crvouga/workspace](https://github.com/crvouga-organization/personal)
 (see its [llms.txt](https://raw.githubusercontent.com/crvouga-organization/personal/main/llms.txt)). Every push
-to `main` builds the Dockerfile and publishes `ghcr.io/crvouga-organization/chrisvouga-violets-garden`, which the
+to `main` builds the Dockerfile and publishes `ghcr.io/crvouga/chrisvouga-violets-garden`, which the
 fleet then deploys.
 
 ### Project layout
